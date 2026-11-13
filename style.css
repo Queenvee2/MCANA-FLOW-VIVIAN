@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px 90px;
+    background-color:gray;
+    
+}
+nav{
+    ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        font-size: 16PX;
+
+        a{
+            text-decoration: none;
+            color: white
+        }
+    }
+}
+.last{
+    list-style: none;
+    background-color: #5BDBFF;
+    border-radius: 10px;
+    padding: 10px 11px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.vee{
+    background-image: url("Rectangle 1.png");
+    background-repeat: no-repeat;
+    height: 530px;
+}
+.bro{
+    padding-bottom: 12px;
+    color: white;
+    padding-top: 100PX;
+}
+.third{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    .sis{
+        background-color: white;
+        border-radius: 10px;
+        padding: 9px;
+        color: black;
+    }
+    .gat{
+          background-color: #5BDBFF;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+    }
+    
+}
+
+
+.second{
+    padding-bottom: 22px;
+    color: white;
+}
+.boat{
+    background-color: #000000B2;
+    padding-left: 100px;
+    height: 100%;
+    
+}
