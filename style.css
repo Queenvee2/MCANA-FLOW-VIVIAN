@@ -2,12 +2,17 @@
     padding: 0px;
     margin: 0px;
 }
+
+.banner{
+    background-image: url(banner.png);
+    height: 94vh;
+}
 header{
     display: flex;
     align-items: center; 
     justify-content: space-between; 
     padding: 10px 90px;
-    background-color:gray;
+    background-color: #000000B2;
     
 }
 nav{
@@ -33,11 +38,6 @@ nav{
         color: white;
         text-decoration: none;
     }
-}
-.vee{
-    background-image: url("Rectangle 1.png");
-    background-repeat: no-repeat;
-    height: 530px;
 }
 .bro{
     padding-bottom: 12px;
@@ -72,6 +72,58 @@ nav{
 .boat{
     background-color: #000000B2;
     padding-left: 100px;
-    height: 100%;
+    height: 80vh;
     
+}
+.hamburger{
+    display: none;
+}
+@media (max-width:960px) {
+    header{
+        padding: 10px;
+    }
+    .boat{
+        padding-left: 12px;
+    }
+}
+
+@media (max-width:440px) {
+    .banner{
+        background-size: cover;
+        height: 50vh;
+    }
+    header{
+        display: block;
+    }
+    nav{
+        display: none;
+        ul{
+            display: block;
+        }
+    }
+    .last{
+        width: 30%;
+    }
+    .hamburger{
+        display: block;
+        position: absolute;
+        top: 45px;
+        right:10px;
+        i{
+            color:#fff
+        }
+    }
+    .boat{
+        height: 40vh;
+    }
+}
+
+@media (max-width:375px) {
+    .bro{
+        padding-top: 0px;
+    }
+
+    .boat{
+        height: 36vh;
+    }
 }
